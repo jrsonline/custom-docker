@@ -1,3 +1,4 @@
+import pkg_resources
 imports={}
 for i in In:
     if i.find("import") is 0 and i.find("pkg_resources") is -1 :
